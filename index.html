@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Birds by Jack</title>
+    <meta name="description" content="Learn your North American birds">
+    <meta name="keywords" content="learn, birds, quiz">
+    <meta name="author" content="Jack Forsyth">
+    <meta charset="UTF-8">
+    <script src="scripts/script.js"></script>
+    <script src="scripts/birddict.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <style>
+        .wrapper {
+            text-align:center;
+        }
+
+        #imagewrapper {
+            margin:auto;
+            width: 80vw;
+            height: 80vh;
+
+        }
+
+        #textwrapper {
+            margin:auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Bird quiz</h1>
+    <div class="wrapper">
+        <div id="imagewrapper">
+            <!--<img src="images/americancrow.jpg" height="80%">-->
+        </div>
+        <div id="textwrapper">
+            <input id="birdguess" type="text" name="birdguess"><br>
+        </div>
+    </div>
+
+    <script>
+        var birddict = birdDict;
+        var birdnames = [];
+        var currentName;
+        var alternatenames;
+        for(var k in birdDict) birdnames.push(k);
+        shuffleArray(birdnames)
+
+        function loadNextBird () {
+            if (birdnames.length == 0) {
+                $('#imagewrapper').html("<p>That's the end!</p>")
+                return;
+            }
+            currentName = birdnames.pop()
+            alternatenames = [birddict[currentName]['name']].concat(birddict[currentName]['alternatenames']).map(v => v.toLowerCase());
+            imagepath = birddict[currentName]['images'][0]
+            $('#imagewrapper').html('<img src="images/${imagepath}" height="80%">'.replace('${imagepath}', imagepath));
+        }
+
+        
+        $("#birdguess").keyup(function (e) {
+            var guess = $(this).val();
+            console.log(guess)
+            console.log(alternatenames.includes(guess.toLowerCase))
+            if (alternatenames.includes(guess.toLowerCase())) {
+                e.currentTarget.value = ""
+                loadNextBird()
+            }
+        });
+        
+        loadNextBird()
+
+    </script>
+</body>
+
+</html>
