@@ -10,7 +10,7 @@
     <script src="scripts/script.js"></script>
     <script src="scripts/birddict.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
     <style>
         .wrapper {
             text-align:center;
@@ -18,25 +18,51 @@
 
         #imagewrapper {
             margin:auto;
-            width: 80vw;
-            height: 80vh;
+            height: 83vh;
+            margin-top: 20px;
 
         }
 
         #textwrapper {
             margin:auto;
+            bottom:10px;
+            position: relative;
+
         }
+
+        #birdguess {
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+
+        input[type=text] {
+            width: 40%;
+            text-align: center;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 20px;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px; 
+            background-repeat: no-repeat;
+            padding: 12px 10px;
+    }
+        .header {
+            height: 5vh;
+        }
+
+
     </style>
 </head>
 
 <body>
-    <h1>Bird quiz</h1>
+    <!--<div class="header"><h1 style="font-family: 'Noto Sans SC', sans-serif;">Bird quiz</h1></div>-->
+
     <div class="wrapper">
         <div id="imagewrapper">
-            <!--<img src="images/americancrow.jpg" height="80%">-->
         </div>
         <div id="textwrapper">
-            <input id="birdguess" type="text" name="birdguess"><br>
+            <input id="birdguess" type="text" name="birdguess" autocomplete="off"><br>
         </div>
     </div>
 
@@ -45,10 +71,10 @@
         var birdnames = [];
         var currentName;
         var alternatenames;
-        for(var k in birdDict) birdnames.push(k);
+        for (var k in birdDict) birdnames.push(k);
         shuffleArray(birdnames)
 
-        function loadNextBird () {
+        function loadNextBird() {
             if (birdnames.length == 0) {
                 $('#imagewrapper').html("<p>That's the end!</p>")
                 return;
@@ -59,7 +85,7 @@
             $('#imagewrapper').html('<img src="images/${imagepath}" height="80%">'.replace('${imagepath}', imagepath));
         }
 
-        
+
         $("#birdguess").keyup(function (e) {
             var guess = $(this).val();
             console.log(guess)
@@ -69,7 +95,12 @@
                 loadNextBird()
             }
         });
-        
+
+        function toggleSidebar(x) {
+            x.classList.toggle("change");
+            x.classList.toggle("open")
+            $('#sidebar').classList.toggle("open")
+        }
         loadNextBird()
 
     </script>
