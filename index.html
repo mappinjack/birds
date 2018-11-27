@@ -223,7 +223,7 @@
     <div id="sourcediv" class="sourcetip">
         <a id="imagesource" href='' target="_blank">Photo credit</a></div>
     <div id="audiowrapper">
-        <audio src="" autoplay>
+        <audio src="//:0" autoplay loop=true>
         </audio>
     </div>
     <script>
@@ -262,7 +262,7 @@
             }
 
             if (audio == true) {
-                $('#audiowrapper').html('<audio src="audio/{audiopath}" autoplay></audio>'.replace('{audiopath}', audiopaths[0]));
+                $('#audiowrapper').html('<audio src="audio/{audiopath}" autoplay loop></audio>'.replace('{audiopath}', audiopaths[0]));
             }
             else {
                 $('#audiowrapper').html('')
@@ -299,10 +299,11 @@
             }
         });
 
-        $("#birdguess").keydown(function (e){
-            if (hinting == true){
+        $("#birdguess").keydown(function (e) {
+            if (hinting == true) {
                 hinting = false
-            stopHinting()}
+                stopHinting()
+            }
         })
         hinting = false
 
@@ -316,16 +317,15 @@
             value = inputBox.value
             lastChar = value.slice(-1)
             trimString = value.slice(0, -2)
-            console.log(lastChar)
-            console.log(trimString)
-
-            inputBox.value = trimString.replace(/^\-+|\-+$/g, '');
+            inputBox.value = value.slice(0, sliceLocation)
+            sliceLocation = 0
         }
 
         function hintTimer() {
             for (var i = 1; i <= fullName.length; ++i)
                 doScaledTimeout(i);
         }
+        sliceLocation = 0
 
         function doScaledTimeout(i) {
             setTimeout(function () {
@@ -334,8 +334,10 @@
                 if (inputBox.value == fullName) {
                     loadNextBird()
                     inputBox.value = ''
+                    sliceLocation = 0
                 }
-            }, (i- 1) * 600);
+                sliceLocation = i
+            }, (i - 1) * 600);
         }
 
         loadNextBird()
