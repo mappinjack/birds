@@ -207,9 +207,91 @@ birdDict = {
         "sounds": ["baldeagle.mp3"],
         "latin": "Haliaeetus leucocephalus",
         "more": "https://www.allaboutbirds.org/guide/Bald_Eagle/overview"
+    },
+
+    "yellowwarbler": {
+        "name": "Yellow warbler",
+        "alternatenames": ["american yellow warbler"],
+        "images": [{
+            "name": "yellowwarbler.jpg",
+            "source": "http://geoffclarke.hubpages.com/hub/Canadian-Birds"
+        },
+        {
+            "name": "yellowwarbler2.jpg",
+            "source": "https://www.flickr.com/photos/23755697@N04/7156364202/"
+        },
+        {
+            "name": "yellowwarbler3.jpg",
+            "source": "https://commons.wikimedia.org/wiki/User:Mdf"
+        }
+        ],
+        "sounds": ["yellowwarbler.mp3"],
+        "latin": "Setophaga petechia",
+        "more": "https://www.allaboutbirds.org/guide/Yellow_Warbler/overview"
+    },
+
+    "goldfinch": {
+        "name": "American goldfinch",
+        "alternatenames": ["goldfinch", "gold finch", "american gold finch"],
+        "images": [{
+            "name": "goldfinch.jpg",
+            "source": "http://www.kenthomas.us/"
+        },
+        {
+            "name": "goldfinch2.jpg",
+            "source": "https://commons.wikimedia.org/wiki/User:Relic38"
+        },
+        {
+            "name": "goldfinch3.jpg",
+            "source": "https://www.flickr.com/photos/kurt-b/14298854761/"
+        }
+        ],
+        "sounds": ["goldfinch.mp3"],
+        "latin": "Spinus tristis",
+        "more": "https://www.allaboutbirds.org/guide/American_Goldfinch/overview"
+    },
+
+    "baltimoreoriole": {
+        "name": "Baltimore oriole",
+        "alternatenames": [],
+        "images": [{
+            "name": "baltimoreoriole.jpg",
+            "source": "https://www.flickr.com/photos/wildreturn/14034724996/"
+        },
+        {
+            "name": "baltimoreoriole2.jpg",
+            "source": "https://www.flickr.com/photos/russ-w/26681100634/"
+        },
+        {
+            "name": "baltimoreoriole3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Baltimore_Oriole/media-browser-overview/63734251"
+        }
+        ],
+        "sounds": ["baltimoreoriole.mp3"],
+        "latin": "Icterus galbula",
+        "more": "https://www.allaboutbirds.org/guide/baltimore_oriole"
+    },
+
+    "canadagoose": {
+        "name": "Canada goose",
+        "alternatenames": ["canadian goose"],
+        "images": [{
+            "name": "canadagoose.jpg",
+            "source": "https://commons.wikimedia.org/wiki/User:Jovianeye"
+        },
+        {
+            "name": "canadagoose2.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Canada_goose_Branta_canadensis_(6).JPG"
+        },
+        {
+            "name": "canadagoose3.jpg",
+            "source": "https://commons.wikimedia.org/wiki/File:Canada_Goose_Creche.JPG"
+        }
+        ],
+        "sounds": ["canadagoose.mp3"],
+        "latin": "Branta canadensis",
+        "more": "https://www.allaboutbirds.org/guide/canada_goose"
     }
-
-
 
 
 
@@ -219,7 +301,7 @@ empty = {
 
     "empty": {
         "name": "",
-        "alternatenames": [""],
+        "alternatenames": [],
         "images": [{
             "name": "",
             "source": ""
