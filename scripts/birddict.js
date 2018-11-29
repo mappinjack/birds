@@ -291,8 +291,87 @@ birdDict = {
         "sounds": ["canadagoose.mp3"],
         "latin": "Branta canadensis",
         "more": "https://www.allaboutbirds.org/guide/canada_goose"
+    },
+    "caspiantern": {
+        "name": "Caspian tern",
+        "alternatenames": [],
+        "images": [{
+            "name": "caspiantern.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Sterna-caspia-010.jpg"
+        },
+        {
+            "name": "caspiantern2.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Caspian_tern_(Hydroprogne_caspia)_non-breeding.jpg"
+        },
+        {
+            "name": "caspiantern3.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Hydroprogne_caspia_-_Gould%27s_Lagoon.jpg"
+        }
+        ],
+        "sounds": ["caspiantern.mp3"],
+        "latin": "Hydroprogne caspia",
+        "more": "https://www.allaboutbirds.org/guide/Caspian_Tern/overview"
+    },
+    "barnswallow": {
+        "name": "Barn swallow",
+        "alternatenames": [],
+        "images": [{
+            "name": "barnswallow.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Barn_Swallow/media-browser-overview/68123101"
+        },
+        {
+            "name": "barnswallow2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Barn_Swallow/media-browser-overview/68123101"
+        },
+        {
+            "name": "barnswallow3.jpg",
+            "source": "https://en.wikipedia.org/wiki/File:Landsvale.jpg"
+        }
+        ],
+        "sounds": ["barnswallow.mp3"],
+        "latin": "Hirundo rustica",
+        "more": "https://www.allaboutbirds.org/guide/Barn_Swallow/overview"
+    },
+    "grackle": {
+        "name": "Common grackle",
+        "alternatenames": ["grackle"],
+        "images": [{
+            "name": "grackle.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Common_Grackle/media-browser/67364581"
+        },
+        {
+            "name": "grackle2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Common_Grackle/media-browser/67364561"
+        },
+        {
+            "name": "grackle3.jpg",
+            "source": "https://commons.wikimedia.org/w/index.php?curid=32777702"
+        }
+        ],
+        "sounds": ["grackle.mp3"],
+        "latin": "Quiscalus quiscula",
+        "more": "https://www.allaboutbirds.org/guide/Common_Grackle/overview"
+    },
+    "starling": {
+        "name": "Common starling",
+        "alternatenames": ["starling", "European starling"],
+        "images": [{
+            "name": "starling.jpg",
+            "source": "https://www.allaboutbirds.org/guide/European_Starling/media-browser-overview/67454961"
+        },
+        {
+            "name": "starling2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/European_Starling/media-browser-overview/67454991"
+        },
+        {
+            "name": "starling3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/European_Starling/media-browser-overview/67454961"
+        }
+        ],
+        "sounds": ["starling.mp3"],
+        "latin": "Sturnus vulgaris",
+        "more": "https://www.allaboutbirds.org/guide/European_Starling/overview"
     }
-
 
 
 }
