@@ -13,277 +13,11 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
-    <style>
-        .wrapper {
-            text-align:center;
-        }
+    <link rel="stylesheet" type="text/css" href="style/style.css">
 
-        #imagewrapper {
-            margin:auto;
-            height: 83vh;
-            margin-top: 20px;
-        }
-
-        #imagewrapper.hidden {
-            margin:auto;
-            height: 83vh;
-            margin-top: 20px;
-            display: hidden;
-        }
-
-        #textwrapper {
-            margin:auto;
-            bottom:10px;
-            position: relative;
-
-        }
-
-        #birdguess {
-            font-family: 'Noto Sans SC', sans-serif;
-        }
-
-        #photocredit {
-            vertical-align:middle;
-            float:right;
-            line-height:13vh;
-        }
-
-        input[type=text] {
-            width: 50%;
-            text-align: center;
-            box-sizing: border-box;
-            border: 2px solid #ccc;
-            border-radius: 4px;
-            font-size: 24px;
-            background-color: white;
-            background-image: url('searchicon.png');
-            background-position: 10px 10px; 
-            background-repeat: no-repeat;
-            padding: 12px 10px;
-    }
-        .header {
-            height: 5vh;
-        }
-
-
-        #sourcediv {
-            position:absolute;
-            right:80px;
-            bottom:5px;
-            width:25px;
-            font-family: 'Noto Sans SC', sans-serif;
-            
-
-        }
-
-        #sourcediv a {
-            color: black;
-            font-family: 'Noto Sans SC', sans-serif;
-            text-decoration: none;
-
-        }
-
-        #sourcediv a:hover {
-            text-decoration: underline;
-        }
-        #infodiv {
-            position:absolute;
-            left:5px;
-            top:5px;
-
-        }
-
-        #infodiv a{
-            display: block;
-            width:75px;
-            height:75px;
-        }
-
-        /* Tooltip container */
-        .tooltip {
-            position: relative;
-            display: inline-block;
-        }
-
-        /* Tooltip text */
-        .tooltip .tooltiptext {
-            visibility: hidden;
-            width: 200px;
-            background-color: rgb(201, 201, 201);
-            color: black;
-            text-align: center;
-            padding: 5px 0;
-            border-radius: 6px;
-            top: 50%;
-            left: 50%;
-            font-family: 'Noto Sans SC', sans-serif;
-            /* Position the tooltip text - see examples below! */
-            position: absolute;
-            z-index: 1;
-        }
-
-        /* Show the tooltip text when you mouse over the tooltip container */
-        .tooltip:hover .tooltiptext {
-            visibility: visible;
-        }
-
-         /* Customize the label (the container) */
-        .container {
-            display: block;
-            position: relative;
-            padding-left: 35px;
-            margin-bottom: 12px;
-            margin-top: 12px;
-            margin-left: 12px;
-            cursor: pointer;
-            font-size: 22px;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        /* Hide the browser's default checkbox */
-        .container input {
-            position: absolute;
-            opacity: 0;
-            cursor: pointer;
-            height: 0;
-            width: 0;
-        }
-
-        p {
-            font-family: 'Noto Sans SC', sans-serif;
-        }
-        
-        h2 {
-            font-family: 'Noto Sans SC', sans-serif;
-        }
-
-        /* Create a custom checkbox */
-        .checkmark {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 25px;
-            width: 25px;
-            background-color: #eee;
-        }
-
-        /* On mouse-over, add a grey background color */
-        .container:hover input ~ .checkmark {
-            background-color: rgba(167, 167, 167, 0.63);
-        }
-
-        /* When the checkbox is checked, add a blue background */
-        .container input:checked ~ .checkmark {
-            background-color: #2196F3;
-        }
-
-        /* Create the checkmark/indicator (hidden when not checked) */
-        .checkmark:after {
-            content: "";
-            position: absolute;
-            display: none;
-        }
-
-        /* Show the checkmark when checked */
-        .container input:checked ~ .checkmark:after {
-            display: block;
-        }
-
-        /* Style the checkmark/indicator */
-        .container .checkmark:after {
-            left: 9px;
-            top: 5px;
-            width: 5px;
-            height: 10px;
-            border: solid white;
-            border-width: 0 3px 3px 0;
-            -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
-        } 
-
-        #audiospot {
-            display: none;
-        }
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-}
-
-@keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-}
-
-/* The Close Button */
-.close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.modal-header {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
-}
-
-.modal-body {padding: 2px 16px;}
-
-.modal-footer {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
-}
-
-    </style>
 </head>
 
 <body>
-    <!--<div class="header"><h1 style="font-family: 'Noto Sans SC', sans-serif;">Bird quiz</h1></div>-->
     <div id="infodiv" class="tooltip"><i style="font-size:40;opacity:0.2;" class="fas fa-question fa-3x"></i>
         <span class="tooltiptext">
             <label onclick=checkButton() class="container">Visual Clues
@@ -300,34 +34,38 @@
 
         </span></div>
     <div class="wrapper">
+        <!-- Bird image -->
         <div id="imagewrapper">
         </div>
+        <!-- Text guess entry -->
         <div id="textwrapper">
             <input id="birdguess" type="text" name="birdguess" autocomplete="off" placeholder="Enter bird species here">
             <div id="sourcediv" class="sourcetip">
                 <a id="imagesource" href='' target="_blank">Photo credit</a></div>
         </div>
     </div>
+    <!-- Hidden audio div -->
     <div id="audiowrapper">
         <audio src="//:0" autoplay loop></audio>
     </div>
 
-    <div id="myModal" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content">
-              <div class="modal-header">
+    <!-- Modal, hidden by default -->
+    <div id="helpmodal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
                 <span class="close">&times;</span>
                 <h2>So you want to learn some birds...</h2>
-              </div>
-              <div class="modal-body">
-                <p>This site has been created to help aspiring birders brush up on their visual and audio bird identification.</p>
-                <p>Try toggling on or off the visual or audio clues to add different ways to learn and challenge yourself.</p>
-                <p>If you're stuck at any point along the way, simply type "hint" in the guess box to get some help.</p>
-              </div>
             </div>
-          
-          </div>
+            <div class="modal-body">
+                <p>This site has been created to help aspiring birders brush up on their visual and audio bird
+                    identification.</p>
+                <p>Try toggling on or off the visual or audio clues to add different ways to learn and challenge
+                    yourself.</p>
+                <p>If you're stuck at any point along the way, simply type "hint" in the guess box to get some help.</p>
+            </div>
+        </div>
+
+    </div>
 
 
     <script>
@@ -335,6 +73,14 @@
         var birdnames = [];
         var currentName;
         var alternatenames;
+        var sliceLocation = 0;
+        var visual = document.getElementById('visualcheck').checked;
+        var audio = document.getElementById('audiocheck').checked;
+        var modal = document.getElementById('helpmodal');
+        var helpbutton = document.getElementById("helpbutton");
+        var modalclosebutton = document.getElementsByClassName("close")[0];
+        var hinting = false;
+
         for (var k in birdDict) birdnames.push(k);
         shuffleArray(birdnames)
 
@@ -357,6 +103,7 @@
 
         }
 
+        /* Toggle audio/visual clues on or off*/
         function toggleAV() {
             if (visual == true) {
                 $('#imagewrapper').html('<img src="images/{imagepath}" height="80%">'.replace('{imagepath}', imagepath));
@@ -373,21 +120,16 @@
             }
         }
 
-        var visual = document.getElementById('visualcheck').checked
-        var audio = document.getElementById('audiocheck').checked
-
-
+        /* When check button pushed, do expected action */
         function checkButton() {
             visual = document.getElementById('visualcheck').checked
             audio = document.getElementById('audiocheck').checked
             toggleAV()
         }
 
-
+        /* On each keyup, check if name matches. If "hint", hint*/
         $("#birdguess").keyup(function (e) {
             var guess = $(this).val();
-            //stopHinting();
-
 
             if (alternatenames.includes(guess.toLowerCase())) {
                 e.currentTarget.value = ""
@@ -398,19 +140,18 @@
                 e.currentTarget.value = ""
                 hintTimer()
                 hinting = true
-
-
             }
         });
 
+        /* If hinting and user interacts, stop*/
         $("#birdguess").keydown(function (e) {
             if (hinting == true) {
                 hinting = false
                 stopHinting()
             }
         })
-        hinting = false
 
+        /* Stop suggesting hints and right trim characters to allow user to finish guess */
         function stopHinting() {
             var id = window.setTimeout(function () { }, 0);
             while (id--) {
@@ -429,7 +170,7 @@
             for (var i = 1; i <= fullName.length; ++i)
                 doScaledTimeout(i);
         }
-        sliceLocation = 0
+
 
         function doScaledTimeout(i) {
             setTimeout(function () {
@@ -447,26 +188,18 @@
         loadNextBird()
         document.getElementById('birdguess').focus();
 
+        /* Help user reload page at the end */
         function reloadPage() {
             location.reload()
         }
 
-        // Get the modal
-        var modal = document.getElementById('myModal');
-
-        // Get the button that opens the modal
-        var btn = document.getElementById("helpbutton");
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks the button, open the modal 
-        btn.onclick = function () {
+        // When the user clicks the help button, open the modal 
+        helpbutton.onclick = function () {
             modal.style.display = "block";
         }
 
         // When the user clicks on <span> (x), close the modal
-        span.onclick = function () {
+        modalclosebutton.onclick = function () {
             modal.style.display = "none";
         }
 
