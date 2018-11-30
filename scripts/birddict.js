@@ -371,6 +371,89 @@ birdDict = {
         "sounds": ["starling.mp3"],
         "latin": "Sturnus vulgaris",
         "more": "https://www.allaboutbirds.org/guide/European_Starling/overview"
+    },
+    
+    "kingbird": {
+        "name": "Eastern kingbird",
+        "alternatenames": ["kingbird", "king bird", "eastern king bird"],
+        "images": [{
+            "name": "kingbird.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Eastern_Kingbird/media-browser-overview/65684471"
+        },
+        {
+            "name": "kingbird2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Eastern_Kingbird/media-browser-overview/65684501"
+        },
+        {
+            "name": "kingbird3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Eastern_Kingbird/media-browser-overview/65684471"
+        }
+        ],
+        "sounds": ["kingbird.mp3"],
+        "latin": "Tyrannus tyrannus",
+        "more": "https://www.allaboutbirds.org/guide/Eastern_Kingbird/overview"
+    },
+    
+    "cliffswallow": {
+        "name": "Cliff swallow",
+        "alternatenames": [],
+        "images": [{
+            "name": "cliffswallow.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Cliff_Swallow/media-browser-overview/68122541"
+        },
+        {
+            "name": "cliffswallow2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Cliff_Swallow/media-browser-overview/68122541"
+        },
+        {
+            "name": "cliffswallow3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Cliff_Swallow/media-browser-overview/68122541"
+        }
+        ],
+        "sounds": ["cliffswallow.mp3"],
+        "latin": "Petrochelidon pyrrhonota",
+        "more": "https://www.allaboutbirds.org/guide/Cliff_Swallow/overview"
+    },
+    
+    "cowbird": {
+        "name": "Brown-headed cowbird",
+        "alternatenames": ["cowbird", "cow bird", "brown headed cow bird", "brown headed cowbird", "brown-headed cow bird"],
+        "images": [{
+            "name": "cowbird.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Brown-headed_Cowbird/media-browser-overview/67362321"
+        },
+        {
+            "name": "cowbird2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Brown-headed_Cowbird/media-browser-overview/67362321"
+        },
+        {
+            "name": "cowbird3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Brown-headed_Cowbird/media-browser-overview/67362321"
+        }
+        ],
+        "sounds": ["cowbird.mp3"],
+        "latin": "Molothrus ater",
+        "more": "https://www.allaboutbirds.org/guide/Brown-headed_Cowbird/overview"
+    },
+    "commonterm": {
+        "name": "Common tern",
+        "alternatenames": [],
+        "images": [{
+            "name": "commontern.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Common_Tern/media-browser-overview/71336181"
+        },
+        {
+            "name": "commontern2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Common_Tern/media-browser-overview/71336181"
+        },
+        {
+            "name": "commonterm3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Common_Tern/media-browser-overview/71336181"
+        }
+        ],
+        "sounds": ["commontern.mp3"],
+        "latin": "Sterna hirundo",
+        "more": "https://www.allaboutbirds.org/guide/Common_Tern/overview"
     }
 
 

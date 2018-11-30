@@ -8,17 +8,17 @@ h2 {
 
 /* Site div wrapper */
 
-.wrapper {
+* .wrapper {
     text-align: center;
 }
 
 /* Bird image wrapper */
 
-#imagewrapper {
+* #imagewrapper {
     margin: auto;
     height: 83vh;
     margin-top: 20px;
-}
+} 
 
 /* Text box wrapper */
 
@@ -27,6 +27,7 @@ h2 {
     bottom: 10px;
     position: relative;
 }
+
 
 /* Text entry */
 
