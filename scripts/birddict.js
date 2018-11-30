@@ -447,7 +447,7 @@ birdDict = {
             "source": "https://www.allaboutbirds.org/guide/Common_Tern/media-browser-overview/71336181"
         },
         {
-            "name": "commonterm3.jpg",
+            "name": "commontern3.jpg",
             "source": "https://www.allaboutbirds.org/guide/Common_Tern/media-browser-overview/71336181"
         }
         ],
