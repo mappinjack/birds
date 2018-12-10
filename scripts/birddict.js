@@ -197,7 +197,7 @@ birdDict = {
         },
         {
             "name": "baldeagle2.jpg",
-            "source": "https://commons.wikimedia.org/w/index.php?title=User:Bmajoros&action=edit&redlink=1"
+            "source": "https://www.allaboutbirds.org/guide/Bald_Eagle/media-browser-overview/60329071"
         },
         {
             "name": "baldeagle3.jpg",
@@ -372,7 +372,7 @@ birdDict = {
         "latin": "Sturnus vulgaris",
         "more": "https://www.allaboutbirds.org/guide/European_Starling/overview"
     },
-    
+
     "kingbird": {
         "name": "Eastern kingbird",
         "alternatenames": ["kingbird", "king bird", "eastern king bird"],
@@ -393,7 +393,7 @@ birdDict = {
         "latin": "Tyrannus tyrannus",
         "more": "https://www.allaboutbirds.org/guide/Eastern_Kingbird/overview"
     },
-    
+
     "cliffswallow": {
         "name": "Cliff swallow",
         "alternatenames": [],
@@ -414,7 +414,7 @@ birdDict = {
         "latin": "Petrochelidon pyrrhonota",
         "more": "https://www.allaboutbirds.org/guide/Cliff_Swallow/overview"
     },
-    
+
     "cowbird": {
         "name": "Brown-headed cowbird",
         "alternatenames": ["cowbird", "cow bird", "brown headed cow bird", "brown headed cowbird", "brown-headed cow bird"],
@@ -454,30 +454,311 @@ birdDict = {
         "sounds": ["commontern.mp3"],
         "latin": "Sterna hirundo",
         "more": "https://www.allaboutbirds.org/guide/Common_Tern/overview"
+    },
+    "ringbilledgull": {
+        "name": "Ring-billed gull",
+        "alternatenames": ["ring billed gull"],
+        "images": [{
+            "name": "ringbilledgull.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Ring-billed_Gull/media-browser-overview/71316071"
+        },
+        {
+            "name": "ringbilledgull2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Ring-billed_Gull/media-browser-overview/71315991"
+        },
+        {
+            "name": "ringbilledgull3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Ring-billed_Gull/media-browser-overview/71315991"
+        }
+        ],
+        "sounds": ["ringbilledgull.mp3"],
+        "latin": "Larus delawarensis",
+        "more": "https://www.allaboutbirds.org/guide/Ring-billed_Gull/overview"
+    },
+    "songsparrow": {
+        "name": "Song sparrow",
+        "alternatenames": [],
+        "images": [{
+            "name": "songsparrow.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Song_Sparrow/media-browser/66116661"
+        },
+        {
+            "name": "songsparrow2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Song_Sparrow/media-browser/66116661"
+        },
+        {
+            "name": "songsparrow3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Song_Sparrow/media-browser/66116661"
+        }
+        ],
+        "sounds": ["songsparrow.mp3"],
+        "latin": "Melospiza melodia",
+        "more": "https://www.allaboutbirds.org/guide/Song_Sparrow/overview"
+    },
+    "raven": {
+        "name": "Common raven",
+        "alternatenames": ["raven"],
+        "images": [{
+            "name": "raven.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Common_Raven/media-browser-overview/63739541"
+        },
+        {
+            "name": "raven2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Common_Raven/media-browser-overview/63739541"
+        },
+        {
+            "name": "raven3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Common_Raven/media-browser-overview/63739541"
+        }
+        ],
+        "sounds": ["raven.mp3"],
+        "latin": "Corvus corax",
+        "more": "https://www.allaboutbirds.org/guide/Common_Raven/overview"
+    },
+    "cormorant": {
+        "name": "Double-crested Cormorant",
+        "alternatenames": ["cormorant", "double crested cormorant"],
+        "images": [{
+            "name": "cormorant.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Double-crested_Cormorant/media-browser-overview/66027281"
+        },
+        {
+            "name": "cormorant2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Double-crested_Cormorant/media-browser-overview/66027281"
+        },
+        {
+            "name": "cormorant3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Double-crested_Cormorant/media-browser-overview/66027281"
+        }
+        ],
+        "sounds": ["cormorant.mp3"],
+        "latin": "Phalacrocorax auritus",
+        "more": "https://www.allaboutbirds.org/guide/Double-crested_Cormorant/overview"
+    },
+    "chimneyswift": {
+        "name": "Chimney swift",
+        "alternatenames": [],
+        "images": [{
+            "name": "chimneyswift.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Chimney_Swift/media-browser/66113881"
+        },
+        {
+            "name": "chimneyswift2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Chimney_Swift/media-browser/66113891"
+        },
+        {
+            "name": "chimneyswift3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Chimney_Swift/media-browser/66113901"
+        }
+        ],
+        "sounds": ["chimneyswift.mp3"],
+        "latin": "Chaetura pelagica",
+        "more": "https://www.allaboutbirds.org/guide/Chimney_Swift/overview"
+    },
+    "mallard": {
+        "name": "Mallard",
+        "alternatenames": [],
+        "images": [{
+            "name": "mallard.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Mallard/media-browser/60021841"
+        },
+        {
+            "name": "mallard2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Mallard/media-browser/60021801"
+        },
+        {
+            "name": "mallard3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Mallard/media-browser/60021831"
+        }
+        ],
+        "sounds": ["mallard.mp3"],
+        "latin": "Anas platyrhynchos",
+        "more": "https://www.allaboutbirds.org/guide/Mallard/overview"
+    },
+    "scarlettanager": {
+        "name": "Scarlet tanager",
+        "alternatenames": [],
+        "images": [{
+            "name": "scarlettanager.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Scarlet_Tanager/media-browser/67449631"
+        },
+        {
+            "name": "scarlettanager2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Scarlet_Tanager/media-browser/67449611"
+        },
+        {
+            "name": "scarlettanager3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Scarlet_Tanager/media-browser/67449621"
+        }
+        ],
+        "sounds": ["scarlettanager.mp3"],
+        "latin": "Piranga olivacea",
+        "more": "https://www.allaboutbirds.org/guide/Scarlet_Tanager/overview"
+    },
+    "catbird": {
+        "name": "Gray catbird",
+        "alternatenames": ["grey cat bird", "gray catbird", "gray cat bird", "catbird", "cat bird"],
+        "images": [{
+            "name": "catbird.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Gray_Catbird/media-browser/62999411"
+        },
+        {
+            "name": "catbird2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Gray_Catbird/media-browser/62999401"
+        },
+        {
+            "name": "catbird3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Gray_Catbird/media-browser/62999451"
+        }
+        ],
+        "sounds": ["catbird.mp3"],
+        "latin": "Dumetella carolinensis",
+        "more": "https://www.allaboutbirds.org/guide/Gray_Catbird/overview"
+    },
+    "junco": {
+        "name": "Dark-eyed junco",
+        "alternatenames": ["juncko", "dark eyed junco", "junco"],
+        "images": [{
+            "name": "junco.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Dark-eyed_Junco/media-browser-overview/66115711"
+        },
+        {
+            "name": "junco2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Dark-eyed_Junco/media-browser-overview/66115711"
+        },
+        {
+            "name": "junco3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Dark-eyed_Junco/media-browser-overview/66115711"
+        }
+        ],
+        "sounds": ["junco.mp3"],
+        "latin": "Junco hyemalis",
+        "more": "https://www.allaboutbirds.org/guide/Dark-eyed_Junco/overview"
+    },
+    "ovenbird": {
+        "name": "Ovenbird",
+        "alternatenames": ["oven bird"],
+        "images": [{
+            "name": "ovenbird.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Ovenbird/media-browser-overview/64439011"
+        },
+        {
+            "name": "ovenbird2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Ovenbird/media-browser-overview/64439051"
+        },
+        {
+            "name": "ovenbird3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Ovenbird/media-browser-overview/64439051"
+        }
+        ],
+        "sounds": ["ovenbird.mp3"],
+        "latin": "Seiurus aurocapilla",
+        "more": "https://www.allaboutbirds.org/guide/Ovenbird/overview"
+    },
+    "woodduck": {
+        "name": "Wood duck",
+        "alternatenames": [],
+        "images": [{
+            "name": "woodduck.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Wood_Duck/media-browser-overview/65533521"
+        },
+        {
+            "name": "woodduck2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Wood_Duck/media-browser-overview/59857401"
+        },
+        {
+            "name": "woodduck3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Wood_Duck/media-browser-overview/59857401"
+        }
+        ],
+        "sounds": ["woodduck.mp3"],
+        "latin": "Aix sponsa",
+        "more": "https://www.allaboutbirds.org/guide/Wood_Duck/overview"
+    },
+    "greategret": {
+        "name": "Great egret",
+        "alternatenames": ["egret"],
+        "images": [{
+            "name": "greategret.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Great_Egret/media-browser-overview/70610211"
+        },
+        {
+            "name": "greategret2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Great_Egret/media-browser-overview/70610211"
+        },
+        {
+            "name": "greategret3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Great_Egret/media-browser-overview/70610211"
+        }
+        ],
+        "sounds": ["greategret.mp3"],
+        "latin": "Ardea alba",
+        "more": "https://www.allaboutbirds.org/guide/Great_Egret/overview"
+    },
+    "blueheron": {
+        "name": "Great blue heron",
+        "alternatenames": ["Great-blue heron"],
+        "images": [{
+            "name": "blueheron.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Great_Blue_Heron/media-browser-overview/60314201"
+        },
+        {
+            "name": "blueheron2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Great_Blue_Heron/media-browser-overview/60314201"
+        },
+        {
+            "name": "blueheron3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Great_Blue_Heron/media-browser-overview/60314201"
+        }
+        ],
+        "sounds": ["blueheron.mp3"],
+        "latin": "Ardea herodias",
+        "more": "https://www.allaboutbirds.org/guide/Great_Blue_Heron/overview"
+    },
+    "greenheron": {
+        "name": "Green heron",
+        "alternatenames": [],
+        "images": [{
+            "name": "greenheron.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Green_Heron/media-browser-overview/70691741"
+        },
+        {
+            "name": "greenheron2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Green_Heron/media-browser-overview/70691741"
+        },
+        {
+            "name": "greenheron3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Green_Heron/media-browser-overview/70691741"
+        }
+        ],
+        "sounds": ["greenheron.mp3"],
+        "latin": "Butorides virescens",
+        "more": "https://www.allaboutbirds.org/guide/Green_Heron/overview"
     }
+    
 
 
 }
 
 empty = {
 
-    "empty": {
+    "{name}": {
         "name": "",
         "alternatenames": [],
         "images": [{
-            "name": "",
+            "name": "{name}.jpg",
             "source": ""
         },
         {
-            "name": "",
+            "name": "{name}2.jpg",
             "source": ""
         },
         {
-            "name": "",
+            "name": "{name}3.jpg",
             "source": ""
         }
         ],
-        "sounds": [""],
+        "sounds": ["{name}.mp3"],
         "latin": "",
         "more": ""
     }
