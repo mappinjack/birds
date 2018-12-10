@@ -238,7 +238,7 @@ birdDict = {
             "source": "http://www.kenthomas.us/"
         },
         {
-            "name": "goldfinch2.jpg",
+            "name": "goldfinch2.JPG",
             "source": "https://commons.wikimedia.org/wiki/User:Relic38"
         },
         {
@@ -280,11 +280,11 @@ birdDict = {
             "source": "https://commons.wikimedia.org/wiki/User:Jovianeye"
         },
         {
-            "name": "canadagoose2.jpg",
+            "name": "canadagoose2.JPG",
             "source": "https://commons.wikimedia.org/wiki/File:Canada_goose_Branta_canadensis_(6).JPG"
         },
         {
-            "name": "canadagoose3.jpg",
+            "name": "canadagoose3.JPG",
             "source": "https://commons.wikimedia.org/wiki/File:Canada_Goose_Creche.JPG"
         }
         ],
