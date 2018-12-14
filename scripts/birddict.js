@@ -33,7 +33,7 @@ birdDict = {
         },
         {
             "name": "americanrobin3.jpg",
-            "source": "https://www.flickr.com/photos/cricketsblog/38559904200/"
+            "source": "https://www.allaboutbirds.org/guide/American_Robin/media-browser/60412911"
         }
         ],
         "sounds": ["americanrobin.mp3"],
@@ -75,7 +75,7 @@ birdDict = {
         },
         {
             "name": "northerncardinal3.jpg",
-            "source": "http://geoffclarke.hubpages.com/hub/Canadian-Birds-in-my-Garden"
+            "source": "https://www.allaboutbirds.org/guide/Northern_Cardinal/media-browser/63667281"
         }
         ],
         "sounds": ["northerncardinal.mp3"],
@@ -734,8 +734,154 @@ birdDict = {
         "sounds": ["greenheron.mp3"],
         "latin": "Butorides virescens",
         "more": "https://www.allaboutbirds.org/guide/Green_Heron/overview"
+    },
+    "americanbittern": {
+        "name": "American bittern",
+        "alternatenames": ["bittern"],
+        "images": [{
+            "name": "americanbittern.jpg",
+            "source": "https://www.allaboutbirds.org/guide/American_Bittern/media-browser-overview/37758621"
+        },
+        {
+            "name": "americanbittern2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/American_Bittern/media-browser-overview/37758621"
+        },
+        {
+            "name": "americanbittern3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/American_Bittern/media-browser-overview/37758621"
+        }
+        ],
+        "sounds": ["americanbittern.mp3"],
+        "latin": "Botaurus lentiginosus",
+        "more": "https://www.allaboutbirds.org/guide/American_Bittern/overview#"
+    },
+
+    "killdeer": {
+        "name": "Killdeer",
+        "alternatenames": ["kill deer"],
+        "images": [{
+            "name": "killdeer.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Killdeer/media-browser-overview/64809651"
+        },
+        {
+            "name": "killdeer2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Killdeer/media-browser-overview/64809631"
+        },
+        {
+            "name": "killdeer3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Killdeer/media-browser-overview/64809631"
+        }
+        ],
+        "sounds": ["killdeer.mp3"],
+        "latin": "Charadrius vociferus",
+        "more": "https://www.allaboutbirds.org/guide/Killdeer/overview"
+    },
+
+    "treeswallow": {
+        "name": "Tree swallow",
+        "alternatenames": [],
+        "images": [{
+            "name": "treeswallow.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Tree_Swallow/media-browser-overview/68280061"
+        },
+        {
+            "name": "treeswallow2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Tree_Swallow/media-browser-overview/68280061"
+        },
+        {
+            "name": "treeswallow3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Tree_Swallow/media-browser-overview/68280061"
+        }
+        ],
+        "sounds": ["treeswallow.mp3"],
+        "latin": "Tachycineta bicolor",
+        "more": "https://www.allaboutbirds.org/guide/Tree_Swallow/overview"
+    },
+
+    "warblingvireo": {
+        "name": "Warbling vireo",
+        "alternatenames": [],
+        "images": [{
+            "name": "warblingvireo.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Warbling_Vireo/media-browser-overview/65763761"
+        },
+        {
+            "name": "warblingvireo2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Warbling_Vireo/media-browser-overview/65763761"
+        },
+        {
+            "name": "warblingvireo3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Warbling_Vireo/media-browser-overview/65763761"
+        }
+        ],
+        "sounds": ["warblingvireo.mp3"],
+        "latin": "Vireo gilvus",
+        "more": "https://www.allaboutbirds.org/guide/Warbling_Vireo/overview"
+    },
+
+    "nightheron": {
+        "name": "Black-crowned night-heron",
+        "alternatenames": ["black crowned night heron", "black-crowned night heron", "black crowned night-heron"],
+        "images": [{
+            "name": "nightheron.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Black-crowned_Night-Heron/media-browser-overview/70693031"
+        },
+        {
+            "name": "nightheron2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Black-crowned_Night-Heron/media-browser-overview/70693031"
+        },
+        {
+            "name": "nightheron3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Black-crowned_Night-Heron/media-browser-overview/70693031"
+        }
+        ],
+        "sounds": ["nightheron.mp3"],
+        "latin": "Nycticorax nycticorax",
+        "more": "https://www.allaboutbirds.org/guide/Black-crowned_Night-Heron/overview"
+    },
+
+    "cedarwaxwing": {
+        "name": "Cedar waxwing",
+        "alternatenames": ["cedar wax wing"],
+        "images": [{
+            "name": "cedarwaxwing.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Cedar_Waxwing/media-browser-overview/59874471"
+        },
+        {
+            "name": "cedarwaxwing2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Cedar_Waxwing/media-browser-overview/59874471"
+        },
+        {
+            "name": "cedarwaxwing3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Cedar_Waxwing/media-browser-overview/59874471"
+        }
+        ],
+        "sounds": ["cedarwaxwing.mp3"],
+        "latin": "Bombycilla cedrorum",
+        "more": "https://www.allaboutbirds.org/guide/Cedar_Waxwing/overview"
+    },
+
+    "osprey": {
+        "name": "Osprey",
+        "alternatenames": [],
+        "images": [{
+            "name": "osprey.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Osprey/media-browser-overview/60320581"
+        },
+        {
+            "name": "osprey2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Osprey/media-browser-overview/60320581"
+        },
+        {
+            "name": "osprey3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Osprey/media-browser-overview/60320581"
+        }
+        ],
+        "sounds": ["osprey.mp3"],
+        "latin": "Pandion haliaetus",
+        "more": "https://www.allaboutbirds.org/guide/Osprey/overview"
     }
-    
+
 
 
 }
