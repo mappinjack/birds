@@ -880,10 +880,107 @@ birdDict = {
         "sounds": ["osprey.mp3"],
         "latin": "Pandion haliaetus",
         "more": "https://www.allaboutbirds.org/guide/Osprey/overview"
+    },
+    "pileatedwoodpecker": {
+        "name": "Pileated woodpecker",
+        "alternatenames": ["pileated wood pecker"],
+        "images": [{
+            "name": "pileatedwoodpecker.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Pileated_Woodpecker/media-browser/60408671"
+        },
+        {
+            "name": "pileatedwoodpecker2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Pileated_Woodpecker/media-browser/60408691"
+        },
+        {
+            "name": "pileatedwoodpecker3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Pileated_Woodpecker/media-browser/60408681"
+        }
+        ],
+        "sounds": ["pileatedwoodpecker.mp3"],
+        "latin": "Dryocopus pileatus",
+        "more": "https://www.allaboutbirds.org/guide/Pileated_Woodpecker/overview"
+    },
+    "downywoodpecker": {
+        "name": "Downy woodpecker",
+        "alternatenames": ["downy wood pecker"],
+        "images": [{
+            "name": "downywoodpecker.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Downy_Woodpecker/media-browser/60397941"
+        },
+        {
+            "name": "downywoodpecker2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Downy_Woodpecker/media-browser/60397881"
+        },
+        {
+            "name": "downywoodpecker3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Downy_Woodpecker/media-browser/60397961"
+        }
+        ],
+        "sounds": ["downywoodpecker.mp3"],
+        "latin": "Dryobates pubescens",
+        "more": "https://www.allaboutbirds.org/guide/Downy_Woodpecker/overview"
+    },
+    "hairywoodpecker": {
+        "name": "Hairy woodpecker",
+        "alternatenames": ["hairy wood pecker"],
+        "images": [{
+            "name": "hairywoodpecker.jpg",
+            "source": "https://en.wikipedia.org/wiki/Hairy_woodpecker#/media/File:Young_Hairy_Woodpecker.jpg"
+        },
+        {
+            "name": "hairywoodpecker2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Hairy_Woodpecker/media-browser/68929231"
+        },
+        {
+            "name": "hairywoodpecker3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Hairy_Woodpecker/media-browser/68929211"
+        }
+        ],
+        "sounds": ["hairywoodpecker.mp3"],
+        "latin": "Dryobates villosus",
+        "more": "https://www.allaboutbirds.org/guide/Hairy_Woodpecker/overview"
+    },
+    "northernharrier": {
+        "name": "Northern harrier",
+        "alternatenames": ["harrier"],
+        "images": [{
+            "name": "northernharrier.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Northern_Harrier/media-browser-overview/70774731"
+        },
+        {
+            "name": "northernharrier2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Northern_Harrier/media-browser-overview/70774791"
+        },
+        {
+            "name": "northernharrier3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Northern_Harrier/media-browser-overview/70774791"
+        }
+        ],
+        "sounds": ["northernharrier.mp3"],
+        "latin": "Circus hudsonius",
+        "more": "https://www.allaboutbirds.org/guide/Northern_Harrier/overview"
+    },
+    "coopershawk": {
+        "name": "Cooper's hawk",
+        "alternatenames": ["coopers hawk", "cooper hawk"],
+        "images": [{
+            "name": "coopershawk.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Coopers_Hawk/media-browser/60324921"
+        },
+        {
+            "name": "coopershawk2.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Coopers_Hawk/media-browser/60324881"
+        },
+        {
+            "name": "coopershawk3.jpg",
+            "source": "https://www.allaboutbirds.org/guide/Coopers_Hawk/media-browser/60324871"
+        }
+        ],
+        "sounds": ["coopershawk.mp3"],
+        "latin": "Accipiter cooperii",
+        "more": "https://www.allaboutbirds.org/guide/Coopers_Hawk/overview"
     }
-
-
-
 }
 
 empty = {
